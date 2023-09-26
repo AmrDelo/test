@@ -7,5 +7,8 @@ for line in f1.readlines():
 f1.close()
 f2.close()
 
+f2 = open('new_india.txt','r')
+print(f2.read())
+
 
 
